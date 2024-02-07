@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Tutorialsninja.qa.TestCases.SearchProductTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyValidProduct"/>
+          <include name="loginSetup"/>
+          <include name="verifyNoProduct"/>
+          <include name="verifyInvalidProduct"/>
+        </methods>
+      </class> <!-- com.Tutorialsninja.qa.TestCases.SearchProductTest -->
+      <class name="com.Tutorialsninja.qa.TestCases.AddToCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCase1"/>
+          <include name="loginSetup"/>
+        </methods>
+      </class> <!-- com.Tutorialsninja.qa.TestCases.AddToCartTest -->
+      <class name="com.Tutorialsninja.qa.TestCases.RegisterTest">
+        <methods>
+          <include name="verifyRegisterWithAllFields"/>
+          <include name="setup"/>
+          <include name="verifyRegisterWithExistingEmail"/>
+          <include name="verifyRegisterWithMandatoryFields"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Tutorialsninja.qa.TestCases.RegisterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
